@@ -1,0 +1,36 @@
+table {
+    width: 100%;
+    border: 0; 
+    border-collapse: separate; 
+    border-spacing: 0;
+}
+
+thead th {
+    border-bottom: 3px solid #d6d6d6; 
+    border-collapse: separate; 
+    border-spacing: 5px 5px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+tbody td {
+    font-size: small;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px 0; 
+    text-align: left;
+}
+
+
+div .sep-tbody-tfoot {
+    width: 100%;
+    height: 25px;
+}
+
+tfoot button {
+    width: fit-content;
+    padding: 2px;
+    font-family: inherit;
+}
+tfoot button:last-child {
+    margin-left: 2px;
+}

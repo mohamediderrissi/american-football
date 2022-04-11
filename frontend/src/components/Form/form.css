@@ -1,0 +1,66 @@
+/*  remove default style for input */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input {
+  -moz-appearance: textfield;
+}
+
+input {
+    border-style: none;
+    border-bottom: 4px solid #5e5e5e;
+    font-family: 'Lato', sans-serif;
+}
+
+form .form-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+form .form-errors {
+  color: red;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+form .divider {
+  height: 100px;
+  border-left: 2px solid #dfdfdf;
+  margin: 0 40px;
+}
+
+form .input-component {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 2px;
+}
+
+form div input {
+  width: 4rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+label {
+    margin-right: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+form .form-action button {
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 10px;
+    border-style: hidden;
+    background-color: black;
+    width: 40%;
+    cursor: pointer;
+    font-family: inherit;
+}
